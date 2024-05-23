@@ -1,0 +1,1774 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.homepage-desktop-hd {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.homepage-desktop-hd .right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    box-sizing: border-box;
+}
+
+.right-side .contacts a,
+.right-side .nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.right-side .contacts a:hover,
+.right-side .nav a:hover {
+    color: #ef0808;
+    /* Цвет при наведении, можно изменить на желаемый */
+}
+
+.right-side .nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.right-side .nav a {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.right-side .contacts a {
+    font-size: 16px;
+}
+
+.right-side .contacts .dot-separator,
+.right-side .contacts .dot-separator-1,
+.right-side .contacts .dot-separator-2 {
+    margin: 0 8px;
+}
+
+.right-side .contacts .assets-facebook-header img {
+    width: 24px;
+    height: 24px;
+}
+
+
+.homepage-desktop-hd {
+    background: var(--basic-white, #FFFFFF);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1920px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .splash {
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .content {
+    border-radius: 0 0 12px 12px;
+    background: var(--gradient-supersoft, linear-gradient(228.57deg, #323264 22.5%, #323264 54.78%, #643E72 76.4%));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 160px 60px 160px;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .splash-1 {
+    position: relative;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0 30px 0;
+    width: 1600px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .assets-symbol {
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    translate: -50% 0;
+    width: 872.3px;
+    height: 1000px;
+}
+
+.homepage-desktop-hd .you-legal-solutions-provider {
+    position: relative;
+    margin-bottom: 405px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 38px;
+    color: var(--basic-white, #FFFFFF);
+}
+
+.homepage-desktop-hd .button-scroll {
+    position: relative;
+    display: flex;
+    padding: 18px 12px 15px 12px;
+    width: 42px;
+    height: 42px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .header-desktop {
+    position: relative;
+    margin-bottom: 366px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1600px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .experience {
+    margin: 0 17.3px 60px 0;
+    display: flex;
+    flex-direction: row;
+    column-gap: 60px;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .frame-3 {
+    margin: 14.5px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .consistent {
+    margin-bottom: 30px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: var(--hero-regular-font-family, 'Montserrat');
+    font-weight: var(--hero-regular-font-weight, 700);
+    font-size: var(--hero-regular-font-size, 38px);
+    background: linear-gradient(90.13deg, #EF8080 0.8%, #F0145A 100%);
+    color: var(--gradient-text-red-reversed, transparent);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.homepage-desktop-hd .customer-oriented {
+    margin-bottom: 30px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: var(--hero-regular-font-family, 'Montserrat');
+    font-weight: var(--hero-regular-font-weight, 700);
+    font-size: var(--hero-regular-font-size, 38px);
+    color: var(--accent, #F0145A);
+}
+
+.homepage-desktop-hd .innovative {
+    margin-bottom: 30px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: var(--hero-regular-font-family, 'Montserrat');
+    font-weight: var(--hero-regular-font-weight, 700);
+    font-size: var(--hero-regular-font-size, 38px);
+    color: var(--grey-text, #B3B3BA);
+}
+
+.homepage-desktop-hd .business-oriented {
+    margin-left: 17.3px;
+    overflow-wrap: break-word;
+    font-family: var(--hero-regular-font-family, 'Montserrat');
+    font-weight: var(--hero-regular-font-weight, 700);
+    font-size: var(--hero-regular-font-size, 38px);
+    color: var(--grey-text, #B3B3BA);
+}
+
+.homepage-desktop-hd .rectangle-11 {
+    background: rgba(255, 255, 255, 0.3);
+    width: 4px;
+    height: 303px;
+}
+
+.homepage-desktop-hd .frame-31 {
+    margin: 73px 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .we-turn-the-idea-of-legal-services {
+    margin-bottom: 30px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: var(--h-2-regular-font-family, 'Montserrat');
+    font-weight: var(--h-2-regular-font-weight, 700);
+    font-size: var(--h-2-regular-font-size, 30px);
+    color: var(--basic-white, #FFFFFF);
+}
+
+.homepage-desktop-hd .consolidating-many-years-of-experience-and-practice-the-companys-lawyers-accompany-complex-projects-and-achieve-anumber-of-important-decisions-for-the-industry-many-of-them-form-the-practice-of-applying-the-law-of-the-sea-in-ukraine {
+    overflow-wrap: break-word;
+    font-family: var(--introduction-font-family, 'Montserrat');
+    font-weight: var(--introduction-font-weight, 400);
+    font-size: var(--introduction-font-size, 19px);
+    line-height: var(--introduction-line-height, 1.579);
+    color: var(--basic-white, #FFFFFF);
+}
+
+.homepage-desktop-hd .grid {
+    margin-right: 1.1px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .frame-32 {
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .frame-4 {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .services {
+    margin-right: 6.5px;
+    overflow-wrap: break-word;
+    font-family: var(--h-3-caps-font-family, 'Montserrat');
+    font-weight: var(--h-3-caps-font-weight, 700);
+    font-size: var(--h-3-caps-font-size, 14px);
+    letter-spacing: var(--h-3-caps-letter-spacing, 1px);
+    text-transform: var(--h-3-caps-text-transform, uppercase);
+    color: var(--accent, #F0145A);
+}
+
+.homepage-desktop-hd .assets-arrow {
+    margin: 4px 0;
+    display: flex;
+    width: 4.5px;
+    height: 9px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .what-can-we-do-better-than-others {
+    overflow-wrap: break-word;
+    font-family: var(--hero-regular-font-family, 'Montserrat');
+    font-weight: var(--hero-regular-font-weight, 700);
+    font-size: var(--hero-regular-font-size, 38px);
+    background: linear-gradient(90.13deg, #F0145A 0.8%, #EF8080 100%);
+    color: var(--gradient-red-text, transparent);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.homepage-desktop-hd .row {
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .item {
+    margin: 0 97px 27px 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .icon {
+    border-radius: 24px;
+    background: var(--basic-white, #FFFFFF);
+    margin-bottom: 30px;
+    display: flex;
+    align-self: flex-start;
+    padding: 14px;
+    width: 92px;
+    height: 92px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .assets-services-ecommerce {
+    width: 64px;
+    height: 64px;
+}
+
+.homepage-desktop-hd .frame-33 {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .it-and-ecommerce {
+    margin-bottom: 15px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: var(--h-3-regular-font-family, 'Montserrat');
+    font-weight: var(--h-3-regular-font-weight, 700);
+    font-size: var(--h-3-regular-font-size, 22px);
+    color: var(--active-regular, #24A3FF);
+}
+
+.homepage-desktop-hd .an-endless-stream-of-contracts-tax-issues-labor-relations-corporate-papers-legal-work-distracts-you-from-doing-business-but-there-is-not-much-work-to-do-to-hire-an-in-house-lawyer {
+    overflow-wrap: break-word;
+    font-family: var(--paragraph-regular-font-family, 'Montserrat');
+    font-weight: var(--paragraph-regular-font-weight, 400);
+    font-size: var(--paragraph-regular-font-size, 16px);
+    line-height: var(--paragraph-regular-line-height, 1.625);
+    color: var(--basic-white, #FFFFFF);
+}
+
+.homepage-desktop-hd .item-1 {
+    margin-right: 83.9px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .icon-1 {
+    border-radius: 24px;
+    background: var(--basic-white, #FFFFFF);
+    margin-bottom: 30px;
+    display: flex;
+    align-self: flex-start;
+    padding: 14px;
+    width: 92px;
+    height: 92px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .assets-services-support {
+    width: 64px;
+    height: 64px;
+}
+
+.homepage-desktop-hd .frame-34 {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .comprehensive-daily-legal-support {
+    margin-bottom: 15px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: var(--h-3-regular-font-family, 'Montserrat');
+    font-weight: var(--h-3-regular-font-weight, 700);
+    font-size: var(--h-3-regular-font-size, 22px);
+    color: var(--active-regular, #24A3FF);
+}
+
+.homepage-desktop-hd .in-addition-over-time-the-work-will-become-the-same-type-and-uninteresting-for-afull-time-lawyer-and-we-know-very-well-how-difficult-it-is-to-find-agood-candidate-with-experience-in-the-field-of-information-technology-in-ukraine {
+    overflow-wrap: break-word;
+    font-family: var(--paragraph-regular-font-family, 'Montserrat');
+    font-weight: var(--paragraph-regular-font-weight, 400);
+    font-size: var(--paragraph-regular-font-size, 16px);
+    line-height: var(--paragraph-regular-line-height, 1.625);
+    color: var(--basic-white, #FFFFFF);
+}
+
+.homepage-desktop-hd .item-2 {
+    margin-bottom: 79px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .icon-2 {
+    border-radius: 24px;
+    background: var(--basic-white, #FFFFFF);
+    margin-bottom: 30px;
+    display: flex;
+    align-self: flex-start;
+    padding: 14px;
+    width: 92px;
+    height: 92px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .frame-35 {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .structuring-corporate-relationships {
+    margin-bottom: 15px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: var(--h-3-regular-font-family, 'Montserrat');
+    font-weight: var(--h-3-regular-font-weight, 700);
+    font-size: var(--h-3-regular-font-size, 22px);
+    color: var(--active-regular, #24A3FF);
+}
+
+.homepage-desktop-hd .instead-of-just-providing-legal-services-we-will-hire-alawyer-or-awhole-team-that-will-fit-into-the-daily-life-of-your-company {
+    overflow-wrap: break-word;
+    font-family: var(--paragraph-regular-font-family, 'Montserrat');
+    font-weight: var(--paragraph-regular-font-weight, 400);
+    font-size: var(--paragraph-regular-font-size, 16px);
+    line-height: var(--paragraph-regular-line-height, 1.625);
+    color: var(--basic-white, #FFFFFF);
+}
+
+.homepage-desktop-hd .row-1 {
+    margin-right: 10.4px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .item-3 {
+    margin: 0 63.9px 27px 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .icon-3 {
+    border-radius: 24px;
+    background: var(--basic-white, #FFFFFF);
+    margin-bottom: 30px;
+    display: flex;
+    align-self: flex-start;
+    padding: 14px;
+    width: 92px;
+    height: 92px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .assets-services-trust {
+    width: 64px;
+    height: 64px;
+}
+
+.homepage-desktop-hd .frame-36 {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .building-contractual-relations {
+    margin-bottom: 15px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: var(--h-3-regular-font-family, 'Montserrat');
+    font-weight: var(--h-3-regular-font-weight, 700);
+    font-size: var(--h-3-regular-font-size, 22px);
+    color: var(--active-regular, #24A3FF);
+}
+
+.homepage-desktop-hd .once-aweek-or-week-after-month-you-have-your-own-lawyer-by-your-side-anyone-in-the-company-can-catch-it-at-the-coffee-maker-and-just-talk-about-current-affairs-instead-of-waiting-for-update-status {
+    overflow-wrap: break-word;
+    font-family: var(--paragraph-regular-font-family, 'Montserrat');
+    font-weight: var(--paragraph-regular-font-weight, 400);
+    font-size: var(--paragraph-regular-font-size, 16px);
+    line-height: var(--paragraph-regular-line-height, 1.625);
+    color: var(--basic-white, #FFFFFF);
+}
+
+.homepage-desktop-hd .item-4 {
+    margin-right: 77.5px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .icon-4 {
+    border-radius: 24px;
+    background: var(--basic-white, #FFFFFF);
+    margin-bottom: 30px;
+    display: flex;
+    align-self: flex-start;
+    padding: 14px;
+    width: 92px;
+    height: 92px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .assets-services-protection {
+    width: 64px;
+    height: 64px;
+}
+
+.homepage-desktop-hd .frame-37 {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .protection-of-business-intellectual-property {
+    margin-bottom: 15px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: var(--h-3-regular-font-family, 'Montserrat');
+    font-weight: var(--h-3-regular-font-weight, 700);
+    font-size: var(--h-3-regular-font-size, 22px);
+    color: var(--active-regular, #24A3FF);
+}
+
+.homepage-desktop-hd .and-all-the-other-time-he-will-work-on-new-diverse-projects-so-he-will-definitely-not-stop-in-professional-development-one-way-or-another-all-axon-partners-will-work-for-you-instead-of-acorporate-lawyer {
+    overflow-wrap: break-word;
+    font-family: var(--paragraph-regular-font-family, 'Montserrat');
+    font-weight: var(--paragraph-regular-font-weight, 400);
+    font-size: var(--paragraph-regular-font-size, 16px);
+    line-height: var(--paragraph-regular-line-height, 1.625);
+    color: var(--basic-white, #FFFFFF);
+}
+
+.homepage-desktop-hd .item-5 {
+    margin-bottom: 53px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .icon-5 {
+    border-radius: 24px;
+    background: var(--basic-white, #FFFFFF);
+    margin-bottom: 30px;
+    display: flex;
+    align-self: flex-start;
+    padding: 22px 0 22.1px 0.2px;
+    width: 92px;
+    height: 92px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .frame-38 {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .judicial-representation {
+    margin-bottom: 15px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: var(--h-3-regular-font-family, 'Montserrat');
+    font-weight: var(--h-3-regular-font-weight, 700);
+    font-size: var(--h-3-regular-font-size, 22px);
+    color: var(--active-regular, #24A3FF);
+}
+
+.homepage-desktop-hd .is-it-asmall-medium-sized-company-or-amarket-leader-local-business-or-multinational-company-do-you-have-your-own-legal-department-or-not {
+    overflow-wrap: break-word;
+    font-family: var(--paragraph-regular-font-family, 'Montserrat');
+    font-weight: var(--paragraph-regular-font-weight, 400);
+    font-size: var(--paragraph-regular-font-size, 16px);
+    line-height: var(--paragraph-regular-line-height, 1.625);
+    color: var(--basic-white, #FFFFFF);
+}
+
+.homepage-desktop-hd .shadow {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1880px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .bg {
+    border-radius: 0 0 12px 12px;
+    background: #E7E7F2;
+    margin: 0 20px;
+    width: 1840px;
+    height: 10px;
+}
+
+.homepage-desktop-hd .bg-1 {
+    border-radius: 0 0 12px 12px;
+    background: #CACADB;
+    width: 1880px;
+    height: 10px;
+}
+
+.homepage-desktop-hd .team {
+    margin: 0 160px 60px 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .frame-39 {
+    border-radius: 12px;
+    background: var(--grey-bg, #F5F5FA);
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    padding-right: 41.8px;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .image {
+    border-radius: 12px 0 0 12px;
+    background: url('./images/team_photos_team_1.png') 50% / cover no-repeat, linear-gradient(#EDEDF7, #EDEDF7);
+    margin-right: 30px;
+    width: 400px;
+    height: 298px;
+}
+
+.homepage-desktop-hd .frame-310 {
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .frame-311 {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .frame-312 {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .container {
+    margin-right: 3.8px;
+    overflow-wrap: break-word;
+    font-family: var(--h-3-caps-font-family, 'Montserrat');
+    font-weight: var(--h-3-caps-font-weight, 700);
+    font-size: var(--h-3-caps-font-size, 14px);
+    letter-spacing: var(--h-3-caps-letter-spacing, 1px);
+    text-transform: var(--h-3-caps-text-transform, uppercase);
+    color: var(--active-regular, #24A3FF);
+}
+
+.homepage-desktop-hd .assets-arrow-1 {
+    margin: 4px 0;
+    display: flex;
+    width: 4.5px;
+    height: 9px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .container-1 {
+    overflow-wrap: break-word;
+    font-family: var(--hero-regular-font-family, 'Montserrat');
+    font-weight: var(--hero-regular-font-weight, 700);
+    font-size: var(--hero-regular-font-size, 38px);
+    background: linear-gradient(90.13deg, #F0145A 0.8%, #EF8080 100%);
+    color: var(--gradient-red-text, transparent);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.homepage-desktop-hd .frame-313 {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .container-2 {
+    margin-bottom: 6px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: var(--h-4-regular-font-family, 'Montserrat');
+    font-weight: var(--h-4-regular-font-weight, 700);
+    font-size: var(--h-4-regular-font-size, 16px);
+    color: var(--grey-text, #B3B3BA);
+}
+
+.homepage-desktop-hd .container-3 {
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: var(--paragraph-small-font-family, 'Montserrat');
+    font-weight: var(--paragraph-small-font-weight, 400);
+    font-size: var(--paragraph-small-font-size, 14px);
+    line-height: var(--paragraph-small-line-height, 1.571);
+    color: var(--grey-text, #B3B3BA);
+}
+
+.homepage-desktop-hd .paginator {
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    width: 78px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .ellipse {
+    border-radius: 8px;
+    background: var(--active-regular, #24A3FF);
+    width: 16px;
+    height: 16px;
+}
+
+.homepage-desktop-hd .ellipse-1 {
+    opacity: 0.2;
+    border-radius: 8px;
+    background: var(--active-regular, #24A3FF);
+    width: 16px;
+    height: 16px;
+}
+
+.homepage-desktop-hd .ellipse-2 {
+    opacity: 0.2;
+    border-radius: 8px;
+    background: var(--active-regular, #24A3FF);
+    width: 16px;
+    height: 16px;
+}
+
+.homepage-desktop-hd .recommended {
+    background: var(--grey-bg, #F5F5FA);
+    display: flex;
+    flex-direction: column;
+    padding: 30px 160px 0 160px;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .heading {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .frame-41 {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .publications {
+    margin-right: 6.1px;
+    overflow-wrap: break-word;
+    font-family: var(--h-3-caps-font-family, 'Montserrat');
+    font-weight: var(--h-3-caps-font-weight, 700);
+    font-size: var(--h-3-caps-font-size, 14px);
+    letter-spacing: var(--h-3-caps-letter-spacing, 1px);
+    text-transform: var(--h-3-caps-text-transform, uppercase);
+    color: var(--active-regular, #24A3FF);
+}
+
+.homepage-desktop-hd .assets-arrow-2 {
+    margin: 4px 0;
+    display: flex;
+    width: 4.5px;
+    height: 9px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .we-have-something-to-tell {
+    overflow-wrap: break-word;
+    font-family: var(--hero-regular-font-family, 'Montserrat');
+    font-weight: var(--hero-regular-font-weight, 700);
+    font-size: var(--hero-regular-font-size, 38px);
+    background: linear-gradient(90.13deg, #F0145A 0.8%, #EF8080 100%);
+    color: var(--gradient-red-text, transparent);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.homepage-desktop-hd .grid-1 {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .item-6 {
+    border-radius: 8px;
+    background: var(--basic-white, #FFFFFF);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 72px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .cover {
+    border-radius: 8px 8px 0 0;
+    background: url('./images/assets_publication_publication_1.png') 50% / cover no-repeat;
+    margin-bottom: 30px;
+    width: 513.3px;
+    height: 200px;
+}
+
+.homepage-desktop-hd .frame-314 {
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .equity-associate {
+    margin-bottom: 15px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: var(--h-4-regular-font-family, 'Montserrat');
+    font-weight: var(--h-4-regular-font-weight, 700);
+    font-size: var(--h-4-regular-font-size, 16px);
+    color: var(--active-regular, #24A3FF);
+}
+
+.homepage-desktop-hd .april-22 {
+    margin-bottom: 15px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--grey-text, #B3B3BA);
+}
+
+.homepage-desktop-hd .rectangle-8 {
+    background: var(--grey-separator, #E6E6F0);
+    margin-bottom: 15px;
+    width: 453.3px;
+    height: 4px;
+}
+
+.homepage-desktop-hd .im-ajun-on-projects-iam-aco-owner-of-alaw-firm-how-it-happened-before-entering-my-parents-told-me-that-if-i {
+    margin-right: 36.5px;
+    overflow-wrap: break-word;
+    font-family: var(--paragraph-small-font-family, 'Montserrat');
+    font-weight: var(--paragraph-small-font-weight, 400);
+    font-size: var(--paragraph-small-font-size, 14px);
+    line-height: var(--paragraph-small-line-height, 1.571);
+    color: var(--basic-black, #000000);
+}
+
+.homepage-desktop-hd .item-7 {
+    border-radius: 8px;
+    background: var(--basic-white, #FFFFFF);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .cover-1 {
+    border-radius: 8px 8px 0 0;
+    background: url('./images/assets_publication_publication_2.png') 50% / cover no-repeat;
+    margin-bottom: 30px;
+    width: 513.3px;
+    height: 200px;
+}
+
+.homepage-desktop-hd .frame-315 {
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .penalty-for-the-good-corporation-what-will-happen-to-google-and-others-for-violating-the-gdpr {
+    margin: 0 20.9px 15px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: var(--h-4-regular-font-family, 'Montserrat');
+    font-weight: var(--h-4-regular-font-weight, 700);
+    font-size: var(--h-4-regular-font-size, 16px);
+    color: var(--active-regular, #24A3FF);
+}
+
+.homepage-desktop-hd .september-29 {
+    margin-bottom: 15px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--grey-text, #B3B3BA);
+}
+
+.homepage-desktop-hd .rectangle-81 {
+    background: var(--grey-separator, #E6E6F0);
+    margin-bottom: 15px;
+    width: 453.3px;
+    height: 4px;
+}
+
+.homepage-desktop-hd .and-why-the-recovery-of-50-million-euros-could-be-afateful-precedent-according-to-mind-ua-january-21-national-commission-for-data-protection {
+    margin-right: 43.7px;
+    overflow-wrap: break-word;
+    font-family: var(--paragraph-small-font-family, 'Montserrat');
+    font-weight: var(--paragraph-small-font-weight, 400);
+    font-size: var(--paragraph-small-font-size, 14px);
+    line-height: var(--paragraph-small-line-height, 1.571);
+    color: var(--basic-black, #000000);
+}
+
+.homepage-desktop-hd .item-8 {
+    border-radius: 8px;
+    background: var(--basic-white, #FFFFFF);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .cover-2 {
+    border-radius: 8px 8px 0 0;
+    background: url('./images/assets_publication_publication_3.png') 50% / cover no-repeat;
+    margin-bottom: 30px;
+    width: 513.3px;
+    height: 200px;
+}
+
+.homepage-desktop-hd .frame-316 {
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .millennial-testament {
+    margin-bottom: 15px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: var(--h-4-regular-font-family, 'Montserrat');
+    font-weight: var(--h-4-regular-font-weight, 700);
+    font-size: var(--h-4-regular-font-size, 16px);
+    color: var(--active-regular, #24A3FF);
+}
+
+.homepage-desktop-hd .august-19 {
+    margin-bottom: 15px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--grey-text, #B3B3BA);
+}
+
+.homepage-desktop-hd .rectangle-82 {
+    background: var(--grey-separator, #E6E6F0);
+    margin-bottom: 15px;
+    width: 453.3px;
+    height: 4px;
+}
+
+.homepage-desktop-hd .what-and-how-modern-vloggers-opinion-leaders-and-crypto-millionaires-will-inherit-atypical-legacy-of-the-ukrainian-generation-xlooks-like-this-an-apartment-in {
+    margin-right: 25.8px;
+    overflow-wrap: break-word;
+    font-family: var(--paragraph-small-font-family, 'Montserrat');
+    font-weight: var(--paragraph-small-font-weight, 400);
+    font-size: var(--paragraph-small-font-size, 14px);
+    line-height: var(--paragraph-small-line-height, 1.571);
+    color: var(--basic-black, #000000);
+}
+
+.homepage-desktop-hd .footer-desktop {
+    background: var(--grey-bg, #F5F5FA);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 160px;
+    width: 1920px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .clients {
+    margin: 0 100px 60px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1720px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .they-already-trust-us {
+    margin: 0 0.8px 30px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: var(--h-3-caps-font-family, 'Montserrat');
+    font-weight: var(--h-3-caps-font-weight, 700);
+    font-size: var(--h-3-caps-font-size, 14px);
+    letter-spacing: var(--h-3-caps-letter-spacing, 1px);
+    text-transform: var(--h-3-caps-text-transform, uppercase);
+    color: var(--main-regular, #323264);
+}
+
+.homepage-desktop-hd .grid-2 {
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1720px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .row-2 {
+    display: flex;
+    flex-direction: row;
+    width: 1720px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .item-9 {
+    background: #1C4280;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 36px 0 36px 1px;
+    width: 430px;
+    height: 120px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .hillel-logo-one-line-white-uk {
+    border-radius: 12px 0 0 0;
+    background: url('./images/assets_clients_hillel.png') 50% / cover no-repeat;
+    width: 217px;
+    height: 48px;
+}
+
+.homepage-desktop-hd .item-10 {
+    background: #143646;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 44px 0 44px 1px;
+    width: 430px;
+    height: 120px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .image-1 {
+    background: url('./images/assets_clients_wannabiz.png') 50% / cover no-repeat;
+    width: 199px;
+    height: 32px;
+}
+
+.homepage-desktop-hd .item-11 {
+    background: linear-gradient(#F48B30, #F48B30), linear-gradient(#F48B30, #F48B30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 38px 0 38px 1px;
+    width: 430px;
+    height: 120px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .logo-52 {
+    background: url('./images/clients_tapgerine.png') 50% / cover no-repeat;
+    width: 179px;
+    height: 44px;
+}
+
+.homepage-desktop-hd .item-12 {
+    background: #9E4DC3;
+    display: flex;
+    padding: 39px 0;
+    justify-content: center;
+    align-items: center;
+    width: 430px;
+    height: 120px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .retina-2 {
+    background: url('./images/assets_clients_3_dlook.png') 50% / cover no-repeat;
+    width: 180px;
+    height: 42px;
+}
+
+.homepage-desktop-hd .row-3 {
+    display: flex;
+    flex-direction: row;
+    width: 1720px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .item-13 {
+    background: #FD9339;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 38px 0;
+    width: 430px;
+    height: 120px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .frame-6 {
+    background: url('./images/assets_clients_orangear.png') 50% / cover no-repeat;
+    width: 174px;
+    height: 44px;
+}
+
+.homepage-desktop-hd .item-14 {
+    background: #E2E2E4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 36px 0 36px 1.2px;
+    width: 430px;
+    height: 120px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .frame-7 {
+    background: url('./images/assets_clients_adtelligent.png') 50% / cover no-repeat;
+    width: 223.4px;
+    height: 48px;
+}
+
+.homepage-desktop-hd .item-15 {
+    background: #C71C36;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 29px 0 30px 0;
+    width: 430px;
+    height: 120px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .logo-2 {
+    background: url('./images/clients_clickky.png') 50% / cover no-repeat;
+    width: 138px;
+    height: 61px;
+}
+
+.homepage-desktop-hd .item-16 {
+    background: #DCF3F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 22px 0;
+    width: 430px;
+    height: 120px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .ecolease {
+    background: url('./images/assets_clients_eco_leasing.png') 50% / cover no-repeat;
+    width: 146px;
+    height: 76px;
+}
+
+.homepage-desktop-hd .row-4 {
+    display: flex;
+    flex-direction: row;
+    width: 1720px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .item-17 {
+    background: #EAEAEA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    width: 430px;
+    height: 120px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .image-2 {
+    background: url('./images/assets_clients_ingratek.png') 50% / cover no-repeat;
+    width: 182px;
+    height: 60px;
+}
+
+.homepage-desktop-hd .item-18 {
+    background: #282240;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 41px 0 41px 1px;
+    width: 430px;
+    height: 120px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .icon-logo-1 {
+    background: url('./images/clients_city_par.png') 50% / cover no-repeat;
+    width: 181px;
+    height: 38px;
+}
+
+.homepage-desktop-hd .item-19 {
+    background: #1D4568;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 37px 0 37px 1px;
+    width: 430px;
+    height: 120px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .logo {
+    background: url('./images/assets_clients_artprint.png') 50% / cover no-repeat;
+    width: 189px;
+    height: 46px;
+}
+
+.homepage-desktop-hd .item-20 {
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 0 12px 0;
+    width: 430px;
+    height: 120px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .logo-m {
+    background: url('./images/assets_clients_ultimatecard.png') 50% / cover no-repeat;
+    width: 152px;
+    height: 95px;
+}
+
+.homepage-desktop-hd .ellipse-3 {
+    opacity: 0.5;
+    border-radius: 21px;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    translate: -50% 0;
+    width: 42px;
+    height: 42px;
+}
+
+.homepage-desktop-hd .vector {
+    position: relative;
+    width: 18px;
+    height: 9px;
+}
+
+.homepage-desktop-hd .logo-1 {
+    margin-bottom: 0.9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 130px;
+    height: fit-content;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .name {
+    margin: 0 0px 6.5px 0;
+    display: flex;
+    flex-direction: row;
+    width: 130px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .group {
+    margin: 0 6px 10.7px 0;
+    display: flex;
+    width: 21.9px;
+    height: 35.8px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .h {
+    width: 21.9px;
+    height: 35.8px;
+}
+
+.homepage-desktop-hd .group-1 {
+    display: flex;
+    flex-direction: row;
+    width: 102.1px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .group-2 {
+    margin: 0 5.9px 10.7px 0;
+    display: flex;
+    width: 5.1px;
+    height: 35.8px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .vector-1 {
+    width: 5.1px;
+    height: 35.8px;
+}
+
+.homepage-desktop-hd .group-3 {
+    margin: 10.7px 4.7px 10.2px 0;
+    display: flex;
+    width: 24.5px;
+    height: 25.5px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .vector-2 {
+    width: 24.5px;
+    height: 25.5px;
+}
+
+.homepage-desktop-hd .group-4 {
+    margin: 10.7px 5.5px 0 0;
+    display: flex;
+    width: 24px;
+    height: 35.8px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .vector-3 {
+    width: 24px;
+    height: 35.8px;
+}
+
+.homepage-desktop-hd .group-5 {
+    margin: 10.7px 6.2px 10.2px 0;
+    display: flex;
+    width: 21.2px;
+    height: 25.5px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .vector-4 {
+    width: 21.2px;
+    height: 25.5px;
+}
+
+.homepage-desktop-hd .group-6 {
+    margin-bottom: 10.7px;
+    display: flex;
+    width: 5.1px;
+    height: 35.8px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .vector-5 {
+    width: 5.1px;
+    height: 35.8px;
+}
+
+.homepage-desktop-hd .law-company {
+    width: 130px;
+    height: 7.1px;
+}
+
+.homepage-desktop-hd .right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .contacts {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .frame-317 {
+    margin-right: 6px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .selected {
+    border-radius: 8px;
+    margin: 5px 14.8px 5px 0;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .container-4 {
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: var(--basic-white, #FFFFFF);
+}
+
+.homepage-desktop-hd .lang {
+    border-radius: 8px;
+    margin: 5px 7.5px 5px 0;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .container-5 {
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: var(--basic-white, #FFFFFF);
+}
+
+.homepage-desktop-hd .lang-1 {
+    border-radius: 8px;
+    background: var(--accent, #F0145A);
+    display: flex;
+    padding: 5px 7.1px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .en {
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: var(--basic-white, #FFFFFF);
+}
+
+.homepage-desktop-hd .dot-separator {
+    border-radius: 3px;
+    background: var(--grey-separator, #E6E6F0);
+    margin: 9.5px 6px 9.5px 0;
+    width: 6px;
+    height: 6px;
+}
+
+.homepage-desktop-hd .kyiv-mechnikova-str-141 {
+    margin: 2.5px 6px 2.5px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--basic-white, #FFFFFF);
+}
+
+.homepage-desktop-hd .dot-separator-1 {
+    border-radius: 3px;
+    background: var(--grey-separator, #E6E6F0);
+    margin: 9.5px 6.3px 9.5px 0;
+    width: 6px;
+    height: 6px;
+}
+
+.homepage-desktop-hd .container-6 {
+    margin: 2.5px 6px 2.5px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--basic-white, #FFFFFF);
+}
+
+.homepage-desktop-hd .dot-separator-2 {
+    border-radius: 3px;
+    background: var(--grey-separator, #E6E6F0);
+    margin: 9.5px 6px 9.5px 0;
+    width: 6px;
+    height: 6px;
+}
+
+.homepage-desktop-hd .assets-facebook-header {
+    margin: 0.5px 0;
+    display: flex;
+    width: 24px;
+    height: 24px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .vector-6 {
+    width: 24px;
+    height: 24px;
+}
+
+.homepage-desktop-hd .nav {
+    margin: 0 0px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .item-selected {
+    margin-right: 15.9px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .about-us {
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--basic-white, #FFFFFF);
+}
+
+.homepage-desktop-hd .item-21 {
+    margin-right: 15.8px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .services-1 {
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--basic-white, #FFFFFF);
+}
+
+.homepage-desktop-hd .item-22 {
+    margin-right: 15.2px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .team-1 {
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--basic-white, #FFFFFF);
+}
+
+.homepage-desktop-hd .item-23 {
+    margin-right: 15.7px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .publications-1 {
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--basic-white, #FFFFFF);
+}
+
+.homepage-desktop-hd .item-24 {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .contact {
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--basic-white, #FFFFFF);
+}
+
+.homepage-desktop-hd .vector-2 {
+    width: 24.5px;
+    height: 25.5px;
+}
+
+.homepage-desktop-hd .group-7 {
+    width: 64px;
+    height: 64px;
+}
+
+.homepage-desktop-hd .group-10 {
+    width: 46.2px;
+    height: 47.9px;
+}
+
+.homepage-desktop-hd .vector-21 {
+    width: 4.5px;
+    height: 9px;
+}
+
+.homepage-desktop-hd .vector-22 {
+    width: 4.5px;
+    height: 9px;
+}
+
+.homepage-desktop-hd .separator {
+    background: var(--grey-separator, #E6E6F0);
+    margin-bottom: 30px;
+    width: 1600px;
+    height: 2px;
+}
+
+.homepage-desktop-hd .frame-318 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1600px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .contacts-1 {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .frame-319 {
+    margin-bottom: 21px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .kyiv-mechnikova-str-1411 {
+    margin-right: 10px;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--main-regular, #323264);
+}
+
+.homepage-desktop-hd .dot-separator-3 {
+    border-radius: 3px;
+    background: var(--grey-text, #B3B3BA);
+    margin: 7px 10px 7px 0;
+    width: 6px;
+    height: 6px;
+}
+
+.homepage-desktop-hd .on-map {
+    margin: 2.5px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--active-regular, #24A3FF);
+}
+
+.homepage-desktop-hd .frame-320 {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .assets-facebook-footer {
+    margin-right: 10px;
+    display: flex;
+    width: 38px;
+    height: 38px;
+    box-sizing: border-box;
+}
+
+.homepage-desktop-hd .vector-26 {
+    width: 38px;
+    height: 38px;
+}
+
+.homepage-desktop-hd .dot-separator-4 {
+    border-radius: 3px;
+    background: var(--grey-text, #B3B3BA);
+    margin: 16px 10.3px 16px 0;
+    width: 6px;
+    height: 6px;
+}
+
+.homepage-desktop-hd .container-7 {
+    margin: 9px 10px 9px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--main-alt, #46466E);
+}
+
+.homepage-desktop-hd .dot-separator-5 {
+    border-radius: 3px;
+    background: var(--grey-text, #B3B3BA);
+    margin: 16px 10px 16px 0;
+    width: 6px;
+    height: 6px;
+}
+
+.homepage-desktop-hd .contactforstudy-space {
+    margin: 9px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--active-regular, #24A3FF);
+}
+
+.homepage-desktop-hd .hlegal-law-company-llc {
+    margin-bottom: 59px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--grey-text, #B3B3BA);
+}
